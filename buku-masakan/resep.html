@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep - Buku Masakan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resep-container">
+        <h2>Daftar Resep</h2>
+        <div class="filters">
+            <input type="text" id="search" placeholder="Search...">
+            <select id="sort">
+                <option value="asc">Rating Ascending</option>
+                <option value="desc">Rating Descending</option>
+            </select>
+            <select id="tags">
+                <option value="">All</option>
+                <option value="dessert">Dessert</option>
+                <option value="main">Main Course</option>
+                <!-- Add more tags as needed -->
+            </select>
+        </div>
+        <div id="recipe-list" class="recipe-list"></div>
+    </div>
+    <script src="resep.js"></script>
+</body>
+</html>

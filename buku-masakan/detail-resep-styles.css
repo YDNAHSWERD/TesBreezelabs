@@ -1,0 +1,50 @@
+/* CSS for Detail Resep */
+.detail-resep-container {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Meningkatkan intensitas bayangan */
+    border-radius: 12px; /* Meningkatkan tingkat sudut sudut */
+}
+
+.detail-resep-container h2 {
+    color: #333;
+    font-size: 32px; /* Lebih besar untuk menonjolkan judul */
+    margin-bottom: 20px; /* Ruang tambahan antara judul dan konten */
+    text-transform: uppercase;
+}
+
+.detail-resep-container p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6; /* Meningkatkan keterbacaan dengan jarak antar baris yang lebih besar */
+    margin-bottom: 15px;
+}
+
+#recipe-photo {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Meningkatkan bayangan untuk foto */
+}
+
+#recipe-type,
+#recipe-rating,
+#recipe-difficulty {
+    margin-bottom: 20px; /* Ruang tambahan antara info tambahan */
+    font-size: 20px;
+}
+
+#recipe-ingredients,
+#recipe-instructions {
+    margin-bottom: 30px; /* Ruang tambahan antara bahan dan instruksi */
+}
+
+#recipe-ingredients li,
+#recipe-instructions li {
+    margin-bottom: 10px;
+    list-style-type: disc;
+    font-size: 18px; /* Sedikit lebih besar untuk membedakan dari teks biasa */
+}

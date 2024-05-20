@@ -1,0 +1,74 @@
+/* General Styles */
+.dashboard-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-container h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.dashboard-container p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Recipe List Styles */
+.recipe-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.recipe-list li:hover {
+    transform: translateY(-5px);
+    background-color: #f0f0f0; /* Warna latar belakang saat dihover */
+}
+
+/* Better readability for hyperlinks */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Warna hyperlink saat dihover */
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

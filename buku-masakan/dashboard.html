@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Buku Masakan</title>
+    <link rel="stylesheet" href="dashboard-styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Selamat Datang di Buku Masakan</h2>
+        <p>Hai, <span id="username"></span>!</p>
+        <!-- Button-menuju-halaman Sebelum Penjelasan Dashboard -->
+        <button onclick="window.location.href = 'profile.html';">Lihat Profil</button>
+        <button onclick="window.location.href = 'resep.html';">Lihat Daftar Resep</button>
+        <!-- Penjelasan tentang Dashboard -->
+        <p>Di sini Anda dapat menemukan berbagai resep masakan yang lezat dan mudah untuk dipraktekkan.</p>
+        <h3>Daftar Resep:</h3>
+        <div id="recipe-list" class="recipe-list"></div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
